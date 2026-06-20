@@ -1,0 +1,27 @@
+# Credentials – do not commit
+credentials.py
+.user
+.password
+.spotify_client_id
+.spotify_client_secret
+spotify_storage_state.json
+spotify_token.json
+.spotify_profile/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Downloads
+downloads/
+work/cookies.txt
+work/*.db
+work/*.log
+work/**/*.json
+work/**/*.sqlite
+
+# Runtime
+*.session
